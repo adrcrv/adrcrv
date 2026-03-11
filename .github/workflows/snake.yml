@@ -1,4 +1,4 @@
-name: snake
+name: Snake
 
 on:
   schedule:
@@ -13,12 +13,12 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - name: checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: generate snake
+      - name: Generate Snake
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -26,7 +26,7 @@ jobs:
             assets/contribution-grid-snake.svg
             assets/contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: commit snake files
+      - name: Publish Snake
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@noreply.github.com"
