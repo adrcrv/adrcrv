@@ -24,7 +24,7 @@ I work on platform foundations, automation, delivery workflows, connecting infra
 
 ## 🧰 Languages & Tools
 
-<p align="left">
+<p align="left" style="display: flex; flex-wrap: wrap; grid-gap: 5px">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40" style="vertical-align: middle;" />
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain.svg" alt="kubernetes" width="40" height="40" style="vertical-align: middle;" />
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40" style="vertical-align: middle;" />
